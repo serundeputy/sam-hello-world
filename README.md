@@ -2,11 +2,11 @@
 
 ## Basic Tech Competancy
 
-1. Create a public GitHub repo with this code.
+1. Create a public GitHub repo with this code
 2. Create a feature branch called `techComp`
-3. Answer the questions in the `tech-comp.md` file
-4. Commit your code answers
-5. Push up your branch and file a PR with your answers
+3. Add answers and explanations in the `tech-comp.md` file
+4. Commit your code
+5. Push up your branch and file a pull request (PR) with your answers
 
 ## Add a new function
 
