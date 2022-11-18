@@ -24,12 +24,12 @@ These are some basic tasks so we can assess you know some technologies needed fo
 4. Add and commit your code to your feature branch.
 5. Push up your code and file a pull request.
 
+## Architectural Decision Record (ADR)
+
+Read the fictional scenario in the `adr/README.md` and write an ADR that we can potentially discuss in an interview.
 
 ## AWS SAM Docs
 
 Read the [SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) docs.
 
 
-## Write up an Architectural Decision Record (ADR)
-
-Read the fictional scenario in the `adr/README.md` and write an ADR that we can potentially discuss in an interview.
