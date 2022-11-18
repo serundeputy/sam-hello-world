@@ -1,5 +1,13 @@
 # sam-hello-world
 
+## Basic Tech Competancy
+
+1. Create a public GitHub repo with this code.
+2. Create a feature branch called `techComp`
+3. Answer the questions in the `tech-comp.md` file
+4. Commit your code answers
+5. Push up your branch and file a PR with your answers
+
 ## Add a new function
 
 1. Create a branch called `get_secret`
@@ -11,6 +19,8 @@
 3. Create a `readme.md` file in the new directory for your function.
   * Outline in the `readme.md` file how you would deploy this new function.
     * It doesn't have to be an exhaustive document just a psuedo code list style of what you would do to deploy this new function to AWS infrastructure.
+4. Add and commit your code to your feature branch.
+5. Push up your code and file a pull request.
 
 
 
