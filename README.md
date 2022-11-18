@@ -1,5 +1,7 @@
 # sam-hello-world
 
+These are some basic tasks so we can assess you know some technologies needed for the role.
+
 ## Basic Tech Competancy
 
 1. Create a public GitHub repo with this code
