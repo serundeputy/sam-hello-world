@@ -12,4 +12,4 @@ Please provide brief explanations or answers to the following:
 select * from users limit 5;
 ```
 
-4. Write out an aws cli command to retrieve as secret from AWS.
+4. Write out an aws cli command to retrieve an aws secret.
