@@ -1,5 +1,19 @@
 # sam-hello-world
 
+## Add a new function
+
+1. Create a branch called `get_secret`
+2. Add a new function called `GetSecretFunction`to the `template.yaml` file
+  * Add code to your new `get_secret` function to make an API call to AWS to retrieve an AWS secret given the name of the secret.
+  * The code should be valid python
+    * We just want to read the code
+    * It does not need to authenticate to any real AWS account, but should demonstrate making an API call to AWS api.
+3. Create a `readme.md` file in the new directory for your function.
+  * Outline in the `readme.md` file how you would deploy this new function.
+    * It doesn't have to be an exhaustive document just a psuedo code list style of what you would do to deploy this new function to AWS infrastructure.
+
+
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - hello_world - Code for the application's Lambda function.
