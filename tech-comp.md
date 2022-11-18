@@ -9,7 +9,9 @@ Please provide brief explanations or answers to the following:
 3. Briefly explain what this mysql query does:
 
 ```mysql
-select * from users limit 5;
+mysql -u dbadmin -h sam-hello-world-production.abcd1efg3hijk.us-east-1.rds.amazonaws.com -p dbadminpw -D sam_hello_world_production
+
+mysql select u.email from users u inner join (select user_id, max(logged_in_at) as latest from user_logins group by user_id) r on u.id = r.user_id where r.latest > '2022-01-01 0:00:00' order by email ASC
 ```
 
 4. Write out an aws cli command to retrieve an aws secret.
