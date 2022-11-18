@@ -1,0 +1,23 @@
+name: Lint the CFn template
+
+on:
+  push:
+    branches:
+      - "**"
+    tags-ignore:
+      - "*.*"
+
+jobs:
+  lint_cfn_template:
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Validate Template
+        id: validate-template
+        run: |
+          pip install cfn-lint
+          cfn-lint --template-file ./template.yaml -i W
