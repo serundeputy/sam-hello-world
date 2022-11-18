@@ -1,4 +1,4 @@
-# Technical Compentency
+# Technical Competency
 
 Please provide brief explanations or answers to the following:
 
