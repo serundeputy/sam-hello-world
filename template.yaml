@@ -1,4 +1,4 @@
-AWSTemplateFormatVersion: '2010-09-09'
+AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
 Description: >
   sam-hello-world
@@ -26,6 +26,20 @@ Resources:
             Path: /hello
             Method: get
 
+  GetSecretFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: get_secret/
+      Handler: app.handler
+      Runtime: python3.9
+      Architectures:
+        - x86_64
+      Events:
+        GetSecret:
+          Type: Api
+          Properties:
+            Path: /secret
+            Method: get
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
   # Find out more about other implicit resources you can reference within SAM
